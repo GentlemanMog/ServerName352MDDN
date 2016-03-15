@@ -1,2 +1,2 @@
 # ServerName352MDDN
-Password protected
+Weather Data Collection
