@@ -1,0 +1,24 @@
+body{
+	text-align: center;
+	border: 1px solid black;
+	background: black;
+	color: indigo;
+	font-size: 20px;
+}
+canvas{
+	position: absolute;
+	display: block;
+	width: 70%;
+	height: 800px;
+	margin-left: 13%;
+	border: 1px solid crimson;
+	/*margin-left: 20px;*/
+}
+.values{
+	background: grey;
+	width: 100%;
+	margin-top: 220px;
+	/*margin-left: 25%;*/
+	height: 100px;
+	display: block;
+}
