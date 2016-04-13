@@ -1,5 +1,6 @@
-window.addEventListener('devicepressure', function(event){
+window.addEventListener('devicetemperature', function(event){
 
 	var pressure = event.value;
 	$(".values").html("<h2>" + pressure + "</h2>");
 });
+
