@@ -4,21 +4,48 @@ body{
 	background: black;
 	color: indigo;
 	font-size: 20px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	height: 100%;
 }
-canvas{
+/*canvas{
 	position: absolute;
 	display: block;
 	width: 70%;
 	height: 800px;
 	margin-left: 13%;
 	border: 1px solid crimson;
-	/*margin-left: 20px;*/
+	/*margin-left: 20px;
+}*/
+
+canvas{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid crimson;*/
+}
+.triDtest{
+	position: absolute;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid crimson;*/
 }
 .values{
+	position: absolute;
+	/*left: 20px;*/
+	bottom: 20px;
+	line-height: 20px;
 	background: grey;
 	width: 100%;
 	margin-top: 220px;
 	/*margin-left: 25%;*/
-	height: 100px;
+	/*height: 100px;*/
 	display: block;
+	padding: 50px 0;
+}
+@media all and (max-width:800px) {
+	.values{
+		padding: 20px 0;
+	}
 }
