@@ -345,10 +345,10 @@ function triDtest(containerID, fullWidth, fullHeight, viewX, viewY, viewWidth, v
 					mesh1.rotation.z += 0.01;
 					mesh1.rotation.y += 0.01;
 
-					window.addEventListener("deviceproximity", function(event){
+					window.addEventListener('devicelight', function(event){
 						var prox = event.value;
 						mesh1.scale.set(prox, prox, prox);
-						$(".values").html("<p> You are " + prox + " close</p>")
+						$(".values").html("<p>" + prox + " Lux</p>");
 					}, false);
 
 				//Update Virtualcamera for mouse movement
