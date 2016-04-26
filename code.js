@@ -347,7 +347,7 @@ function triDtest(containerID, fullWidth, fullHeight, viewX, viewY, viewWidth, v
 
 					window.addEventListener('devicelight', function(event){
 						var prox = event.value;
-						mesh1.scale.set(prox, prox, prox);
+						mesh1.scale.set(prox/2, prox/2, prox/2);
 						$(".values").html("<p>" + prox + " Lux</p>");
 					}, false);
 
